@@ -1,18 +1,13 @@
-name: "Towny"
+name: "Country"
 version: "1.0"
 website: 'https://sirblob.bosstop.ml'
-main: ml.bosstop.towny.Towny
+main: tech.bosstop.country.Country
 api-version: 1.19
 authors: [Sir_Blob_]
 load: STARTUP
 
 commands:
-  towny:
-    description: Towny command
-    usage: "/ty <subcommand>"
-    aliases: [ty]
-permissions:
-  towny.chat:
-    default: true
-  towny.basic:
-    default: true
+  country:
+    description: Country command
+    usage: "/country <subcommand>"
+    aliases: [ct]
